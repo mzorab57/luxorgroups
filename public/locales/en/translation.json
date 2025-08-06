@@ -1,0 +1,244 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "gallery": "Gallery",
+    "project": "Project",
+    "video": "Video",
+    "service": "Service",
+    "dashboard": "Dashboard",
+    "contact": "Contact"
+  },
+
+  "hero":{
+      "high_quality_paintings": "High Quality Paintings",
+      "view_gallery": "View Gallery",
+      "view_video":"View Video"
+  },
+
+  "dashboard": {
+    "welcome": "Welcome",
+    "gallery": "Gallery",
+    "project": "Project",
+    "video": "Video",
+    "logout": "Logout"
+  },
+
+  "projectCategories": ["Islamic", "Modern", "Clasic", "View all video"],
+  "our_video_projects":"Visual Showcase",
+
+  "gallery": {
+    "view_details": "View Details",
+    "description": "Description",
+    "category": "Category",
+    "size": "Size",
+    "art_name": "Art.Name"
+  },
+
+  "gallery_items": {
+    "ceramic_art": {
+      "title": "Ceramic Art",
+      "description": "Beautiful ceramic artwork showcasing intricate designs and patterns."
+    },
+    "modern_painting": {
+      "title": "Modern Painting",
+      "description": "Contemporary painting with bold colors and abstract elements."
+    },
+    "traditional_art": {
+      "title": "Traditional Art",
+      "description": "Classic artwork representing cultural heritage and traditional techniques."
+    }
+  },
+  
+  "Location": "Location",
+  "Find_Us": "Find Us",
+  "Our_Address": "Our Address",
+  "Address_Text": "Sulaymaniyah Bakhtiari Street - above Youth Center - upper floor of City Star Bakery",
+  "Working_Hours": "Working Hours",
+  "Working_Hours_Weekday": "Saturday - Thursday: 10:30 AM - 10:30 PM",
+  "Working_Hours_Saturday": "",
+  "Working_Hours_Sunday": "Friday: Closed",
+  "Contact_Info": "Contact Info",
+  "Phone":  "07703614484",
+  "Phone1": "07511173001",
+  "Email": "Email: info@luxorgroups.com",
+  "Visit_Gallery": "Visit Showroom", 
+  "Visit_Gallery_Text": "Experience our stunning artwork in person. Our gallery showcases the finest collection of large-scale paintings and custom artwork.",
+  "Schedule_Visit": "Visit",
+  "Get_Service": "Get Service",
+  "Get_Service_Text": "We pride ourselves on offering not only a diverse collection of stunning artworks but also the flexibility to bring your vision to life.",
+  "About_Title": "Luxor: Where Art Comes to Life",
+  "About_Text_1": "Founded in 2020, Luxor is a premier destination for art enthusiasts and collectors seeking exceptional, handcrafted paintings. Our showroom showcases a stunning collection of hundreds of unique pieces, each meticulously created by skilled artisans dedicated to the timeless craft of painting. Renowned for our Italian-quality standards, every artwork is a testament to craftsmanship, attention to detail, and artistic excellence.",
+  "About_Text_2": "At Luxor, we believe that art is a personal expression. That's why we offer bespoke, customized paintings tailored to your preferences—any size, any style. Whether you're seeking a statement piece for your living space or a personalized gift, our team is committed to bringing your vision to life with the highest level of artistry and professionalism.",
+  "About_Quote": "Discover the beauty of handmade art at Luxor—where every brushstroke tells a story.",
+  "Our_Videos": "Our Videos",
+  "Our_Bst_Services": "Our Best Services",
+  "Services_We_Are_Offering": "Service We Are Offering",
+  "Explore_More": "Explore More",
+  "Key_Features": "Key Features",
+  "Visual_Showcase":"Visual Showcase",
+  "Our_Latest_Projects":  "Our Latest Projects",
+  "Completed_Works": "Completed Works",
+  
+ 
+
+  "Services_List": {
+    "service1": "Custom Large-Scale Painting Production",
+    "service2": "Frame Selection & Custom Framing",
+    "service3": "Bulk Painting Production",
+    "service4": "Art Installation & Setup"
+  },
+
+  "projects": {
+    "modern_interior": {
+      "title": "Modern Interior Design",
+      "category": "Interior",
+      "description": "Luxurious and contemporary interior design solutions"
+    },
+    "classic_wallpaper": {
+      "title": "Classic Wallpaper Design",
+      "category": "Wallpaper",
+      "description": "Elegant and timeless wallpaper patterns"
+    },
+    "modern_wall_art": {
+      "title": "Modern Wall Art",
+      "category": "Art",
+      "description": "Contemporary wall art and decorations"
+    }
+  },
+
+  "videos": {
+    "latest_video": "LATEST Video",
+    "video_01": {
+      "title": "Islamic",
+      "description": "walls and floors"
+    },
+    "video_02": {
+      "title": "Modern",
+      "description": "any environment."
+    },
+    "video_03": {
+      "title": "Classic",
+      "description": "indoor and outdoor"
+    }
+  },
+
+  "work": {
+    "projects": {
+      "city_star_caffe": {
+        "title": "City Star Caffe",
+        "category": "Interior"
+      },
+      "stylish_apartment": {
+        "title": "Stylish Family Appartment",
+        "category": "Interior"
+      },
+      "minimal_house": {
+        "title": "Minimal Guests House",
+        "category": ["Decor", "Interior"]
+      },
+      "art_family": {
+        "title": "Art Family",
+        "category": ["Decor", "Interior"]
+      },
+      "spain_house": {
+        "title": "Private House in Spain",
+        "category": ["Decor", "Interior"]
+      },
+      "sitak_villa": {
+        "title": "Modern Villa in Sitak",
+        "category": "Interior"
+      }
+    }
+  },
+
+  "footer": {
+    "company_description": "At Luxor, art is more than decoration—it's an expression of individuality.",
+    "quick_links": "Quick Links",
+    "our_services": "Our Services",
+    "services_list": {
+      "service1": "Custom Large-Scale Painting Production",
+      "service2": "Frame Selection & Custom Framing",
+      "service3": "Bulk Painting Production",
+      "service4": "Art Installation & Setup"
+    },
+    "copyright": "All rights reserved.",
+    "developed_by": "Developed by"
+  },
+
+  "features": {
+    "smart_work": "Smart Work",
+    "unique_design": "Unique Design",
+    "skilled_team": "Skilled Team",
+    "best_pricing": "Best Pricing"
+  },
+
+  "services": {
+    "service_01": {
+      "title": "Custom Large-Scale Painting Production",
+      "description": "Masterpieces up to 8 meters that transform spaces",
+      "points": [
+        "Creation of paintings up to 8 meters in size",
+        "Customized artwork tailored to client specifications",
+        "Artistic collaborations and commissions"
+      ]
+    },
+    "service_02": {
+      "title": "Frame Selection & Custom Framing",
+      "description": "Perfect frames that complement your artwork",
+      "points": [
+        "Wide variety of frame styles and materials",
+        "Custom framing solutions to match artwork and décor",
+        "Frame design consultations"
+      ]
+    },
+    "service_03": {
+      "title": "Bulk Painting Production",
+      "description": "Large-scale production with artistic excellence",
+      "points": [
+        "Rapid manufacturing of hundreds of paintings for large projects",
+        "Streamlined production processes for quick turnaround",
+        "Volume discounts for large orders"
+      ]
+    },
+    "service_04": {
+      "title": "Art Installation & Setup",
+      "description": "Professional installation with precision care",
+      "points": [
+        "On-site installation of large paintings",
+        "Professional handling and safety measures",
+        "Post-installation support"
+      ]
+    },
+    "service_05": {
+      "title": "Worldwide Shipping & Logistics",
+      "points": [
+        "Secure packaging for large and fragile artworks",
+        "International shipping services",
+        "Customs clearance and delivery coordination globally"
+      ]
+    },
+    "service_06": {
+      "title": "Art Consultation & Design Services",
+      "points": [
+        "Concept development for large-scale murals and artworks",
+        "Design visualization and mock-ups",
+        "Site-specific artwork planning"
+      ]
+    },
+    "service_07": {
+      "title": "Art Leasing & Corporate Decor Solutions",
+      "points": [
+        "Rental of large artworks for events, offices, and public spaces",
+        "Custom art installations for corporate branding"
+      ]
+    },
+    "service_08": {
+      "title": "Restoration & Preservation Services",
+      "points": [
+        "Artwork conservation and restoration",
+        "Maintenance of large-scale paintings"
+      ]
+    }
+  }
+}

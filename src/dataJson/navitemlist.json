@@ -1,0 +1,31 @@
+[
+    {
+      "title": "Home",
+      "link": "/#hero-section"
+    },
+    {
+      "title": "About",
+      "link": "/#about-section"
+    },
+    {
+      "title": "Gallery",
+      "link": "/gallery"
+    },
+    {
+      "title": "Project",
+      "link": "/project"
+    },
+    {
+      "title": "Video",
+      "link": "/video"
+    },
+    {
+      "title": "Service",
+      "link": "/service"
+    },
+  
+    {
+      "title": "Contact",
+      "link": "/contact"
+    }
+  ]

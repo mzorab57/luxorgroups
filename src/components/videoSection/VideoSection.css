@@ -1,0 +1,166 @@
+/* Video Section Custom Styles */
+.video-section {
+  position: relative;
+}
+
+.video-card {
+  position: relative;
+}
+
+.video-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(223, 158, 66, 0.1) 0%, rgba(223, 158, 66, 0.05) 100%);
+  border-radius: 1rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+}
+
+.video-card:hover::before {
+  opacity: 1;
+}
+
+.play-button {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.play-button:hover {
+  background: rgba(223, 158, 66, 0.9);
+  color: white;
+  transform: scale(1.1);
+}
+
+/* Smooth video loading */
+.video-card video {
+  transition: opacity 0.3s ease;
+}
+
+.video-card video:not([src]) {
+  opacity: 0;
+}
+
+/* Custom scrollbar for better UX */
+.video-section::-webkit-scrollbar {
+  width: 8px;
+}
+
+.video-section::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.video-section::-webkit-scrollbar-thumb {
+  background: #df9e42;
+  border-radius: 4px;
+}
+
+.video-section::-webkit-scrollbar-thumb:hover {
+  background: #c8892a;
+}
+
+/* Animation for cards on load */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.video-card {
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+.video-card:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.video-card:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.video-card:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .video-card {
+    margin-bottom: 1rem;
+  }
+  
+  .play-button {
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  .play-button svg {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+}
+
+/* RTL Support for Kurdish text */
+.video-section h2,
+.video-section p,
+.video-section span {
+  direction: rtl;
+  text-align: right;
+}
+
+.video-section .text-center h2,
+.video-section .text-center p {
+  text-align: center;
+}
+
+/* Hover effects for better interactivity */
+.video-card:hover {
+  transform: translateY(-8px);
+}
+
+.video-card:hover .play-button {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(223, 158, 66, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(223, 158, 66, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(223, 158, 66, 0);
+  }
+}
+
+/* Loading state for videos */
+.video-card video {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+.video-card video[src] {
+  background: none;
+  animation: none;
+}

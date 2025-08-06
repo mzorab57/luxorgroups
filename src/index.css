@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Set Raleway as default font for the entire website */
+@layer base {
+  html {
+    font-family: 'Raleway', ui-sans-serif, system-ui, sans-serif;
+  }
+  
+  body {
+    font-family: 'Raleway', ui-sans-serif, system-ui, sans-serif;
+  }
+  
+  * {
+    font-family: inherit;
+  }
+}
+
+@keyframes lineMove {
+  0% {
+    transform: translateY(6100%);
+  }
+  50% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(6100%);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease-out;
+}
+
