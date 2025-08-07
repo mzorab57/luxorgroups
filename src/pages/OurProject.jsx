@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import PagesHeader from "../components/ui/PagesHeader";
+import LoadingPages from "../components/loading/LoadingPages";
 
 const API_URL = "https://luxorgroups.com/api/project/get.php";
 
