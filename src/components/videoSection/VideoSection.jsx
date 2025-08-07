@@ -55,7 +55,7 @@ const VideoSection = () => {
                {t("Visual_Showcase")} 
               </h1>
               <div className="lg:text-6xl  text-5xl  absolute lg:-top-8 -top-10 left-1/2 transform -translate-x-1/2 leading-relaxed font-bold uppercase text-gray-500 opacity-10">
-                {t("Visual_Showcase")}0
+                {t("Visual_Showcase")}
               </div>
             </div>
           </AnimatedComponent>

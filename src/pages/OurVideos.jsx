@@ -2,6 +2,7 @@ import  { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import PagesHeader from "../components/ui/PagesHeader";
 import { AiOutlinePlayCircle } from "react-icons/ai";
+import LoadingPages from "../components/loading/LoadingPages";
 
 const API_URL = "https://luxorgroups.com/api/video/get.php";
 
@@ -52,9 +53,7 @@ const OurVideos = () => {
       </div>
 
       {loading ? (
-        <div className="flex justify-center items-center py-40">
-          <div className="w-12 h-12 border-4 border-primary border-t-transparent border-solid rounded-full animate-spin"></div>
-        </div>
+       <LoadingPages />
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 px-4 gap-8 max-w-7xl rounded w-full mx-auto py-12 relative z-10">
           {videos.map((video, index) => (

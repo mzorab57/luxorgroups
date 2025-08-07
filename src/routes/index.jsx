@@ -1,6 +1,7 @@
 import React, { Suspense, lazy } from "react";
 import { Route, Routes } from "react-router-dom";
 import LoadingScreen from "../components/loading/LoadingScreen";
+import Main from "../components/layout/Main";
 import PrivateRoute from "../components/auth/PrivateRoute";
 
 // Lazy load components with delay to simulate network
@@ -13,7 +14,7 @@ const Hero = lazy(
 const Feature = lazy(
   () =>
     new Promise((resolve) =>
-      setTimeout(() => resolve(import("../components/Feature")), 5000)
+      setTimeout(() => resolve(import("../components/Feature")), 1000)
     )
 );
 const AboutUs = lazy(
@@ -63,25 +64,25 @@ const VideoSection = lazy(
 const Gallery = lazy(
   () =>
     new Promise((resolve) =>
-      setTimeout(() => resolve(import("../pages/Gallery")), 5000)
+      setTimeout(() => resolve(import("../pages/Gallery")))
     )
 );
 const OurProject = lazy(
   () =>
     new Promise((resolve) =>
-      setTimeout(() => resolve(import("../pages/OurProject")), 5000)
+      setTimeout(() => resolve(import("../pages/OurProject")))
     )
 );
 const OurVideos = lazy(
   () =>
     new Promise((resolve) =>
-      setTimeout(() => resolve(import("../pages/OurVideos")), 5000)
+      setTimeout(() => resolve(import("../pages/OurVideos")))
     )
 );
 const Service = lazy(
   () =>
     new Promise((resolve) =>
-      setTimeout(() => resolve(import("../pages/Service")), 1000)
+      setTimeout(() => resolve(import("../pages/Service")))
     )
 );
 
@@ -112,9 +113,9 @@ const AppRoutes = () => {
   return (
     <div>
       <Routes>
+         <Route path="/" element={<Main />}>
         <Route
           index
-          path="/"
           element={
             <>
               <LazyComponent>
@@ -202,6 +203,7 @@ const AppRoutes = () => {
             </PrivateRoute>
           }
         />
+        </Route>
       </Routes>
     </div>
   );

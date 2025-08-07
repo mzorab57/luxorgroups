@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import PagesHeader from "../components/ui/PagesHeader";
 import { useTranslation } from "react-i18next";
+import LoadingScreen from "../components/loading/LoadingScreen";
+import LoadingPages from "../components/loading/LoadingPages";
 
 const API_URL = "https://luxorgroups.com/api/gallery/get.php";
 
@@ -56,9 +58,8 @@ const Gallery = () => {
       />
 
       {loading ? (
-        <div className="flex justify-center  items-center py-20">
-          <div className="w-12 h-12 border-4 border-primary border-t-transparent border-solid rounded-full animate-spin"></div>
-        </div>
+       <LoadingPages  />
+
       ) : (
         <div className="max-w-7xl mt-10 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-x-6 p-3 ">
           {gallery.map((item) => (

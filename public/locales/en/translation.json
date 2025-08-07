@@ -24,7 +24,7 @@
     "logout": "Logout"
   },
 
-  "projectCategories": ["Islamic", "Modern", "Clasic", "View all video"],
+  "projectCategories": ["Showroom", "Barzaiyakani slemani", "Garden City", "View all video"],
   "our_video_projects":"Visual Showcase",
 
   "gallery": {
@@ -110,15 +110,15 @@
   "videos": {
     "latest_video": "LATEST Video",
     "video_01": {
-      "title": "Islamic",
+      "title": "Showroom",
       "description": "walls and floors"
     },
     "video_02": {
-      "title": "Modern",
+      "title": "Barzaiyakani Slemani",
       "description": "any environment."
     },
     "video_03": {
-      "title": "Classic",
+      "title": "Garden City",
       "description": "indoor and outdoor"
     }
   },

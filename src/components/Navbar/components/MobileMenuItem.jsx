@@ -38,7 +38,7 @@ const MobileMenuItem = ({
                 <Link
                 
                   to={child.link}
-                  className="block px-8 py-3 text-gray-300 hover:text-primary hover:bg-primary/5 transition-all duration-300"
+                  className="block px-6 py-3 text-gray-300 hover:text-primary hover:bg-primary/5 transition-all duration-300"
                   onClick={onClose}
                 >
                   {child.title}

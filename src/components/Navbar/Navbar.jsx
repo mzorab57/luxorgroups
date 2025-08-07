@@ -58,7 +58,7 @@ const Navbar = () => {
   return (
     <nav className={`${isMobileMenuOpen ? "bg-[#19160f] " : ""}`}>
       <div className="container mx-auto px-4 font-medium">
-        <div className="flex items-center justify-between py-4 px-8  ">
+        <div className="flex items-center justify-between py-4 px-4  ">
           {/* Logo */}
           <Link
             to="/"
@@ -113,7 +113,7 @@ const Navbar = () => {
           </nav>
 
           <div
-            className="flex items-center space-x-4"
+            className="flex items-center "
             data-aos="fade-left"
             data-aos-duration="800"
             data-aos-delay="300"

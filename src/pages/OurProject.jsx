@@ -69,9 +69,7 @@ const OurProject = () => {
       </div>
 
       {loading ? (
-        <div className="flex justify-center items-center py-40">
-          <div className="w-12 h-12 border-4 border-primary border-t-transparent border-solid rounded-full animate-spin"></div>
-        </div>
+        <LoadingPages />
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-7xl mx-auto py-12 relative z-10 lg:px-2">
           {projects.map((project) => (
